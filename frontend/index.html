@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trillion Games Autosalon</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-container">
+        <a href="/" class="nav-logo">Trillion Games Autosalon</a>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <div class="nav-links">
+          <a href="#catalog">Каталог</a>
+          <a href="#about">О нас</a>
+          <a href="#contacts">Контакты</a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Добро пожаловать в Trillion Games Autosalon!</h1>
+        <p>Мы предлагаем широкий выбор автомобилей премиум-класса по выгодным условиям. <br>Найдите свой идеальный автомобиль уже сегодня!</p>
+        <br>
+        <br>
+        <br>
+        <a href="#catalog" class="btn btn-primary">Смотреть каталог</a>
+      </div>
+    </header>
+
+    <section id="catalog" class="section">
+      <div class="container">
+        <h2>Наш каталог</h2>
+        <div class="car-grid" id="carGrid"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>О нас</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Trillion Games Autosalon — это надежный партнер в мире премиальных автомобилей</h3>
+            <p>Мы работаем с 2020 года и предлагаем лучшие условия для наших клиентов. Наша команда профессионалов поможет вам выбрать идеальный автомобиль, который будет соответствовать всем вашим требованиям.</p>
+            <div class="stats">
+              <div class="stat-item">
+                <h4>500+</h4>
+                <p>Довольных клиентов</p>
+              </div>
+              <div class="stat-item">
+                <h4>100+</h4>
+                <p>Автомобилей в наличии</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <img src="https://pbs.twimg.com/profile_images/1028194454501568512/6G5F-96T_400x400.jpg" alt="Наш автосалон">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="section">
+      <div class="container">
+          <h2>Связаться с нами</h2>
+          <div class="contacts-grid">
+              <div class="contact-info">
+                  <h3>Наши контакты</h3>
+                  <p><strong>Адрес:</strong> ул. Примерная, 123, Ташкент</p>
+                  <p><strong>Телефон:</strong> +998 (90) 777-69-69</p>
+                  <p><strong>Email:</strong> trilliongames@info.com</p>
+              </div>
+              <form id="contactForm" class="contact-form">
+                  <input type="text" name="name" placeholder="Ваше имя" required>
+                  <input type="email" name="email" placeholder="Email" required>
+                  <input type="tel" name="phone" placeholder="Телефон" required>
+                  <textarea name="message" placeholder="Сообщение" required></textarea>
+                  <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+              </form>
+          </div>
+      </div>
+  </section>
+  <script src="script.js"></script>
+  <script src="post.js"></script>
+  </body>
+</html>
